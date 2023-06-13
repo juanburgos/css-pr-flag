@@ -73,3 +73,8 @@
   transform: rotate(-70deg);
   content: "";
 }
+
+p {
+  font-family: 'Faustina', serif;
+  font-size: 3rem;
+}
