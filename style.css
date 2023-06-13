@@ -3,6 +3,7 @@
   height: 500px;
   width: 850px;
   position: relative;
+  border: 2px solid black;
 }
 
 .flag div {
@@ -28,6 +29,8 @@
   border-left: 475px solid #33b5d5;
   border-bottom: 250px solid transparent;
   position: absolute;
+  top: 10px;
+  left: 10px;
   z-index: 1;
 }
 
@@ -72,4 +75,9 @@
   border-left: 1em solid transparent;
   transform: rotate(-70deg);
   content: "";
+}
+
+p {
+  font-family: 'Faustina', serif;
+  font-size: 3rem;
 }
